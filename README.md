@@ -1,4 +1,21 @@
+# Simple Randomizer
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+**Knowledge Prerequisites:**
+
+1. Knowledge of `HTML`, `CSS` 
+2. Knowledge of `React v16+`
+3. Knowledge of `Javascript` , `ES6`
+
+**Software Installed Prerequisites:**
+
+1. Yarn Latest version
+2. NodeJs Latest Version
+
+Optional installation:
+
+1. [Create-react-app](https://reactjs.org/docs/create-a-new-react-app.html)
 
 ## Available Scripts
 
@@ -66,3 +83,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## Author
+* **Jose Ricardo Peteros**

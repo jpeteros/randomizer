@@ -36,3 +36,93 @@
     transform: rotate(360deg);
   }
 }
+
+
+h1, p {
+  font-family: Lato;
+
+}
+.example-enter {
+   opacity: 0.01;
+}
+.example-enter.example-enter-active {
+   opacity: 1;
+   transition: opacity 500ms ease-in;
+}
+.example-leave {
+   opacity: 1;
+}
+.example-leave.example-leave-active {
+   opacity: 0.01;
+   transition: opacity 500ms ease-in;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 50px;
+}
+
+.name {
+  font-size: 72px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  
+  @media (max-width: 768px) {
+    font-size: 48px;
+  }
+}
+
+.random {
+  font-weight: 500;
+}
+
+.btn-remove {
+  color: red;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: .5em;
+}
+
+.btn-copy {
+  border-color: #999;
+  color: #999;
+  font-size: 12px;
+}
+
+.btn-random {
+  background-color: #f00;
+  color: #fff;
+  font-size: 18px;
+}
+
+.btn-randomize-namepart {
+  font-size: 14px;
+  border-color: #333;
+  color: #333;
+  margin-right: 5px;
+}
+
+.m-y {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.randomize-note {
+  font-size: 14px;
+  color: #999;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}

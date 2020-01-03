@@ -1,5 +1,7 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { Navbar } from 'react-bootstrap';
 
 class App extends React.Component {
 
@@ -60,19 +62,27 @@ class App extends React.Component {
       </div>
     ));
     return (
-      <div className="container">
-        <h2>Simple Randomizer App</h2>
-        <input ref="input" placeholder="Enter items.." onFocus={()=>this.refs.input.select()} />
-        <button onClick={this.handleAdd}>Add Item</button> <br/><br/>
-        {items} 
+      <div>
+        <Navbar bg="dark" variant="dark">
+          <Navbar.Brand href="#home">
+            <img alt="" src="/logo.svg" width="30" height="30" className="d-inline-block align-top"/>{' '}
+            Simple Randomizer
+          </Navbar.Brand>
+        </Navbar>
 
-        <div className="m-y">
-          <button className="btn btn-random" onClick={this.randomAll || ''}>Randomize
-          </button>
-        </div>
-        <div className="name">
-          <div>
-            <span className="random">{random}</span>
+        <div className="container">
+          <input ref="input" placeholder="Enter items.." onFocus={()=>this.refs.input.select()} />
+          <button onClick={this.handleAdd}>Add Item</button> <br/><br/>
+          {items} 
+
+          <div className="m-y">
+            <button className="btn btn-random" onClick={this.randomAll || ''}>Randomize
+            </button>
+          </div>
+          <div className="name">
+            <div>
+              <span className="random">{random}</span>
+            </div>
           </div>
         </div>
       </div>

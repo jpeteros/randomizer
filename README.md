@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# DEMO via AWS S3 bucket static website
+http://jose-react-randomizer.s3-website-us-east-1.amazonaws.com
+
+
 **Knowledge Prerequisites:**
 
 1. Knowledge of `HTML`, `CSS` 
